@@ -1,0 +1,20 @@
+{
+  "name": "death-metal-english",
+  "author": "Boris Smus <boris@smus.com> (http://smus.com/)",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "watch": "rollup -c --watch"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.4",
+    "@tsconfig/recommended": "^1.0.1",
+    "@types/jest": "^29.2.1",
+    "rollup": "^3.29.4",
+    "tslib": "^2.6.2",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "rollup-plugin-serve": "^2.0.2"
+  }
+}
